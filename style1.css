@@ -143,7 +143,7 @@ input[type="search"]::placeholder {
 	font-size: 35px;
 	text-align: center;
 }
-.tree, h2 {
+.tree a,.tree li, h2 {
 	color: white;
 }
 .select {
@@ -156,4 +156,18 @@ select {
 select>option:hover {
 	background: white;
 	color: #2c71b8;
+}
+.tree li {
+	float: left;
+}
+.tree:after {
+	content: "";
+    display: block;
+    clear: both;
+}
+.tree li:last-child a {
+	text-decoration: underline;
+}
+.menu li:nth-child(2) {
+	background-image: url(demoShop\arrow.png);
 }
