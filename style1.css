@@ -168,6 +168,3 @@ select>option:hover {
 .tree li:last-child a {
 	text-decoration: underline;
 }
-.menu li:nth-child(2) {
-	background-image: url(demoShop\arrow.png);
-}
