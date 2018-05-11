@@ -2,25 +2,207 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="header.css">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lesson 7</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style1.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<ul class="main-menu">
-			<li><img src="demoShop\icon (3).png" 
-					alt="Logo Here" 
-					title="Logo"></li>
-			<li><a href="">Home </a></li>
-			<li><a href="">Products </a></li>
-			<li><a href="">Payment </a></li>
-			<li><a href="">Shipping </a></li>
-			<li><input type="text"></li>
-			<li><img src="demoShop\icon (1).png" 
-					alt="basket" 
-					title="basket"></li>
-		</ul>
+	<header class="header">
+		<div class="container">
+			<div class="row"><!-- .col-sx-12 телефон
+				.col-sm-6 планшет
+				.col-md-4 ноутбук
+				.col-lg-3 широкоформат -->
+				<div class="col-md-3"><a href=""><img src="demoShop/icon (3).png" alt=""></a>
+				</div>
+				<div class="col-md-6">
+					<ul class="menu row">
+						<li><a href="">Home</a></li>
+						<li><a href="">Product</a>
+							<ul class="sub-menu">
+								<li><a href="">Lorem ipsum dolor</a></li>
+								<li><a href="">Sit amet</a></li>
+								<li><a href="">Consectetur adipiscing</a></li>
+								<li><a href="">Tempor incididunt</a></li>
+								<li><a href="">Dolore magna aliqua</a></li>
+								<li><a href="">Ut enim ad minim veniam</a></li>
+								<li><a href="">Quis nostrud</a></li>
+							</ul>
+						</li>
+						<li><a href="">Payment</a></li>
+						<li><a href="">Shipping</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<div class="cart-widget">
+						<div class="count">4</div>
+					</div>
+					<div class="search" ><input type="search" placeholder="search"></div>
+				</div>
+			</div>
+		</div>
 	</header>
+	<section>
+		<div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">					
+						<div class="tree"> Home page > Product >Laptops and Tablets					
+						</div>
+						<h2>Laptops and Tablets</h2>
+					</div>
+					<div class="col-md-3">
+						<div class="select">
+							<select>
+								<option value="1">Sort by price</option>
+								<option value="2">Sort by name</option>
+								<option value="3">Sort by date</option>
+								<option value="4">Sort by popularity</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+				<!-- <div class="col-md-3">
+					
+				</div> -->
+					<div class="col-md-3 col-md-offset-3">
+						<div class="items">
+							<div>
+								<ul>
+									<li><img src="demoShop\monitor.png" alt="monitor" title="Monitor"></li>
+									<li>#1 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li><b>TYPE:</b> Laptop</li>
+									<li><b>SCREEN SIZE:</b> 7 inches</li>
+									<li><b>RAM:</b> 1 GB</li>
+									<li>$ 599 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li><img src="demoShop\laptop.png" alt="" title="laptop"></li>							
+									<li>#1 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li>TYPE: Laptop</li>
+									<li>SCREEN SIZE: 7 inches</li>
+									<li>RAM: 1 GB</li>
+									<li>$ 399 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>
+							<div>							
+								<ul>
+									<li><img src="demoShop\ipad.png" alt="" title="Ipad"></li>
+									<li>#1 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li>TYPE: Laptop</li>
+									<li>SCREEN SIZE: 7 inches</li>
+									<li>RAM: 1 GB</li>
+									<li>$ 399 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="items">
+							<div>													
+								<ul>
+									<li><img src="demoShop\x-box.png" alt="" title="x-box"></li>
+									<li>#2 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li>TYPE: Laptop</li>
+									<li>SCREEN SIZE: 7 inches</li>
+									<li>RAM: 1 GB</li>
+									<li>$ 1250 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li><img src="demoShop\ipod.png" alt="" title="Ipod"></li>
+									<li>#3 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li>TYPE: Laptop</li>
+									<li>SCREEN SIZE: 7 inches</li>
+									<li>RAM: 1 GB</li>
+									<li>$ 399 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>					
+							<div>							
+								<ul>
+									<li><img src="demoShop\x-box.png" alt="" title="x-box"></li>
+									<li>#3 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li>TYPE: Laptop</li>
+									<li>SCREEN SIZE: 7 inches</li>
+									<li>RAM: 1 GB</li>
+									<li>$ 399 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="items">
+							<div>
+								<ul>
+									<li><img src="demoShop\watch.png" alt="" title="Watch"></li>
+									<li>#3 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li>TYPE: Laptop</li>
+									<li>SCREEN SIZE: 7 inches</li>
+									<li>RAM: 1 GB</li>
+									<li>$ 399 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li><img src="demoShop\iphone.png" alt="" title="Iphone"></li>
+									<li>#3 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li>TYPE: Laptop</li>
+									<li>SCREEN SIZE: 7 inches</li>
+									<li>RAM: 1 GB</li>
+									<li>$ 399 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li><img src="demoShop\watch.png" alt="" title="Watch"></li>
+									<li>#3 Device name</li>
+									<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+									<li>TYPE: Laptop</li>
+									<li>SCREEN SIZE: 7 inches</li>
+									<li>RAM: 1 GB</li>
+									<li>$ 399 <sup>25</sup></li>
+									<li><a href="">MORE DETAILS</a></li>
+									<li><a href="">ADD TO CART</a></li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>	
 </body>
 </html>

@@ -1,7 +1,7 @@
-/*body {
+body {
 	width: 1920px;
 	margin: 0;
-}*/
+}
 header {
 	background: rgb(202,219,237);
 	margin: 0px;
@@ -13,8 +13,12 @@ header:after {
 	clear: both;
 }
 ul {
-	list-style: none; 
-	margin: 0 auto;
+	list-style: none;position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+	
 }
 a {
 	text-decoration: none;
@@ -27,6 +31,7 @@ a {
 	text-align: center;
 	height: 50px;
 	padding: 25px;
+	
 	/*width: 177px;*/
 }
 .main-menu a {
